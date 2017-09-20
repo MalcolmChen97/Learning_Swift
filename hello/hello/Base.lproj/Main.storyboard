@@ -28,7 +28,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timg-2" translatesAutoresizingMaskIntoConstraints="NO" id="jBP-Dp-w9p">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haha" translatesAutoresizingMaskIntoConstraints="NO" id="jBP-Dp-w9p">
                                 <rect key="frame" x="16" y="166" width="343" height="226"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -49,6 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="timg-2" width="790" height="503"/>
+        <image name="haha" width="790" height="503"/>
     </resources>
 </document>

@@ -17,14 +17,14 @@ class ViewController: UIViewController {
     
     var mywords = ["xixi","haha","heihei"]
     let incorrectNumber = 3
-    var total_win = 0{
-        didSet{
-            updateUI()
+    var total_win = 0 {
+        didSet {
+            newRound()
         }
     }
-    var total_lose = 0{
-        didSet{
-            updateUI()
+    var total_lose = 0 {
+        didSet {
+            newRound()
         }
     }
     var currentgame:game!
@@ -69,10 +69,10 @@ class ViewController: UIViewController {
     func updateGameState(){
         if currentgame.remainingIncorrect==0{
             total_lose+=1
-            newRound()
+            //newRound()
         }else if currentgame.word==currentgame.resultWord{
             total_win+=1
-            newRound()
+            //newRound()
         }else{
             updateUI()
         }
